@@ -1,7 +1,7 @@
 class FreqStack {
 private:
-    map<int, stack<int>> freq_number_dict;
-    map<int, int> number_freq_dict;
+    unordered_map<int, stack<int>> freq_number_dict;
+    unordered_map<int, int> number_freq_dict;
     int max_freq;
 public:
     FreqStack() {
