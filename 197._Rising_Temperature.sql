@@ -1,2 +1,4 @@
 # Write your MySQL query statement below
-SELECT b.Id from Weather a, Weather b WHERE a.Id = b.Id - 1 AND a.Temperature < b.Temperature
+# For mysql DATE_ADD(date, INTERNUL duration) 
+# For server or Oracle DATEADD(unit, num, date)
+SELECT b.Id from Weather a, Weather b WHERE DATE_ADD(a.RecordDate, INTERVAL 1 DAY) = b.RecordDate AND a.Temperature < b.Temperature
