@@ -1,0 +1,30 @@
+{
+    "files.associations": {
+        "vector": "cpp",
+        "iosfwd": "cpp",
+        "iterator": "cpp",
+        "__split_buffer": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "ios": "cpp",
+        "stack": "cpp",
+        "queue": "cpp",
+        "random": "cpp",
+        "__node_handle": "cpp",
+        "array": "cpp",
+        "filesystem": "cpp",
+        "map": "cpp",
+        "string_view": "cpp",
+        "unordered_map": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "__tree": "cpp",
+        "bitset": "cpp",
+        "functional": "cpp",
+        "*.tcc": "cpp",
+        "algorithm": "cpp",
+        "chrono": "cpp",
+        "limits": "cpp"
+    }
+}
